@@ -8,8 +8,8 @@ import * as ImagePicker from 'expo-image-picker';
 import * as FileSystem from 'expo-file-system/legacy';
 
 // --- CENTRALIZED API CONFIGURATION ---
-// Your computer's LAN IP + the backend port (run `ipconfig` to find the IP).
-const API_BASE_URL = 'http://10.24.101.39:8000';
+// Production Vercel cloud backend endpoint
+const API_BASE_URL = 'https://scamshield-backend-rho.vercel.app';
 
 // --- SHARED CONTRACT TYPES ---
 export type ScannerType = 'qr' | 'vpa' | 'screenshot' | 'url' | 'text' | 'document';
