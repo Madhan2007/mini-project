@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+python-multipart
+httpx
+pytest
+supabase
+google-generativeai
+sqlalchemy
+psycopg2-binary
+# Screenshot scanner (optional, large download):
+opencv-python-headless
+numpy
+pillow
+easyocr
