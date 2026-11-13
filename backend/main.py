@@ -1,4 +1,9 @@
+import os
+import sys
 import uuid
+
+# Ensure backend directory is in sys.path for serverless runtimes (like Vercel)
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware

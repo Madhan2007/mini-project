@@ -8,9 +8,9 @@ pytest
 supabase
 google-generativeai
 sqlalchemy
-psycopg2-binary
-# Screenshot scanner (optional, large download):
-opencv-python-headless
 numpy
 pillow
-easyocr
+# Optional heavy packages (exceeds Vercel 250MB serverless limit):
+# opencv-python-headless
+# easyocr
+# psycopg2-binary
