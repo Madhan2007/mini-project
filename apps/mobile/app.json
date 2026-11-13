@@ -37,7 +37,8 @@
         {
           "cameraPermission": "Allow ScamShield to access your camera to scan payment QR codes."
         }
-      ]
+      ],
+      "expo-status-bar"
     ]
   }
 }
